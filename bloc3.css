@@ -19,7 +19,8 @@ fond div2 http://www.tahiti-infos.com/photo/art/grande/10383530-17001899.jpg?v=1
 body
 {
 	background-color: white;
-	margin: 0;
+	margin: 0px;
+	padding: 0px;
 	font-family: 'Zilla Slab', serif;
 }
 
@@ -96,6 +97,11 @@ body
 		justify-content: center;
 	}
 
+.bloc2
+{
+	height: 660px;
+}
+
 .bloc3
 {
 	height: 660px;
@@ -156,6 +162,11 @@ body
 		height: 60px;
 	}
 
+.bloc4
+{
+	height: 660px;
+}
+
 .lienLocal
 {
 	display: flex;
@@ -166,3 +177,4 @@ body
 	height: 40px;
 	width: auto;
 }
+
