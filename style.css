@@ -15,6 +15,7 @@ body
 	background-color: black;
 	margin: 0;
 }
+
 .bloc1
 {
 	height: 600px;
@@ -39,9 +40,22 @@ body
 	margin: 0px 30px;
 }
 
+.bloc1 a
+{
+	color:white;
+	text-decoration: none;
+	font-size: 30px;
+	letter-spacing: -1px;
+}
+
+.bloc1 a:hover
+{
+	color: #ff0055;
+}
 .bloc1 h1
 {
-	letter-spacing: 5px;
+	font-size: 50px;
+	letter-spacing: 3px;
 	color: white;
 	display: flex;
 	justify-content: center;
@@ -50,8 +64,11 @@ body
 
 .bloc1 h2
 {
+	font-size: 30px;
 	letter-spacing: 1px;
 	color: white;
 	display: flex;
 	justify-content: center;
+	margin-top: -25px;
 }
+
