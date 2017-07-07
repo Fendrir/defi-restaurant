@@ -10,17 +10,21 @@ image bouffe
 	https://images-na.ssl-images-amazon.com/images/G/03/aplusautomation/vendorimages/11a715da-127d-4d7a-8862-f10f7f8d872b.png._CB280692443__SL300__.png
 
 fond div2 http://www.tahiti-infos.com/photo/art/grande/10383530-17001899.jpg?v=1476301412*/
-
-div.bloc1
+body
 {
-background-image: url(defi_restaurant/zappi.jpg);
+	background-color: black;
+	margin: 0;
+}
+.bloc1
+{
+	height: 600px;
+	background-image: url(defi_restaurant/zappi.jpeg);
 }
 
 .butonTop
 {
 	display: flex;
 	justify-content: center;
-	margin-top: 100px;
 }
 .butonTop ul
 {
