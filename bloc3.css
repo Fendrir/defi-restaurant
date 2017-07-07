@@ -97,6 +97,18 @@ body
 		justify-content: center;
 	}
 
+	.boutonMore
+	{
+		width: 200px;
+		height: 50px;
+		font-size: 25px;
+		background-color: transparent;
+		color: white;
+		border: 2px solid white;
+		border-radius: 10px;
+		margin-bottom: -20px;
+	}
+
 .bloc2
 {
 	height: 660px;
@@ -164,8 +176,97 @@ body
 
 .bloc4
 {
-	height: 660px;
+	height: 560px;
 }
+
+	.bloc4 h1
+	{
+		color: #ff0055;
+		font-size: 50px;
+		text-align: center;
+	}
+
+	.bloc4 ul
+	{
+		list-style: none;
+	}
+
+	.formulaire
+	{
+		float: left;
+		width: 40%;
+		height: 65%;
+		display: flex;
+		flex-direction: column;
+		margin-left: 10%;
+		padding-right: -10%;
+	}
+
+	.name
+	{
+		width: 85%;
+		height: 50px;
+		padding-left: 20px;
+		font-size: 15px;
+		margin-bottom: 10px;
+		border-radius: 10px;
+		border: 1px dashed grey;
+	}
+
+	.message
+	{
+		width: 85%;
+		max-width: 85%;
+		height: 200px;
+		max-height: 300px;
+		padding-top: 20px;
+		padding-left: 20px;
+		font-size: 15px;
+		margin-bottom: 5px;
+		border-radius: 10px;
+		border: 1px dashed grey;
+	}
+
+	.boutonForm
+	{
+		width: 150px;
+		height: 35px;
+		border: none;
+		background-color: #ff0055;
+		font-size: 15px;	
+		color: white;
+		border-radius: 10px;
+		border: 1px solid grey;
+	}
+
+	.textContact
+	{
+		margin-left: 50%;
+		margin-right: 10%;
+		height: 65%;
+	}
+
+	.textContact ul
+	{
+		display: flex;
+		flex-flow: column;
+		justify-content: space-between;
+	}
+
+	.contacts img
+	{
+		margin: 0px 20px 0px 0px;
+		width: 87px;
+		height: 87px;
+	}
+
+	.contacts p 
+	{
+	font-weight: bold;
+	}
+
+
+
 
 .lienLocal
 {
