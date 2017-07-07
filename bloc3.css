@@ -10,10 +10,17 @@ image bouffe
 	https://images-na.ssl-images-amazon.com/images/G/03/aplusautomation/vendorimages/11a715da-127d-4d7a-8862-f10f7f8d872b.png._CB280692443__SL300__.png
 
 fond div2 http://www.tahiti-infos.com/photo/art/grande/10383530-17001899.jpg?v=1476301412*/
+@font-face
+{
+	font-family: 'Roboto';
+	src: url('https://fonts.googleapis.com/css?family=Roboto');
+}
+
 body
 {
 	background-color: white;
 	margin: 0;
+	font-family: 'Zilla Slab', serif;
 }
 
 .bloc1
