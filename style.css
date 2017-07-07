@@ -12,13 +12,13 @@ image bouffe
 fond div2 http://www.tahiti-infos.com/photo/art/grande/10383530-17001899.jpg?v=1476301412*/
 body
 {
-	background-color: black;
+	background-color: white;
 	margin: 0;
 }
 
 .bloc1
 {
-	height: 600px;
+	height: 660px;
 	background-image: url(defi_restaurant/zappi.jpeg);
 }
 
@@ -72,3 +72,21 @@ body
 	margin-top: -25px;
 }
 
+.butbut
+{
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+}
+
+.lienLocal
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+.lienLocal img
+{
+	max-height:  5%;
+	width: auto;
+}
