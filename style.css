@@ -1,0 +1,92 @@
+/* div1 http://biarritz-pizza.fr/img-customer/configuration/5877a032cc3e8.35a3aaeb662bfd222e72443b23bd530b.jpeg
+logo div list1 http://www.matchendirect.fr/image/logo/club/96/hannovre-96-logo972.png?v2
+
+image bouffe 
+	https://stavpet.ru/wp-content/uploads/2017/05/%D0%9A%D0%93%D0%A1-300x300.png
+	https://www.bipa.at/dw/image/v2/AAFT_PRD/on/demandware.static/-/Sites-catalog/de_AT/v1486035507194/original/315151.png?sw=300&sfrm=png
+	https://www.groby.hu/product_images/pr/b0/a/49832_se1_c35da_300.png
+	https://img.rewe-static.de/0338626/3473870_digital-image.png?resize=300px:300px&output-quality=90&output-format=jpeg
+	http://www.zoobum.ua/img/uploads/presm/%D0%BA%D1%83%D1%80%D0%BE%D1%87%D0%BA%D0%B0NVS17_sm.png
+	https://images-na.ssl-images-amazon.com/images/G/03/aplusautomation/vendorimages/11a715da-127d-4d7a-8862-f10f7f8d872b.png._CB280692443__SL300__.png
+
+fond div2 http://www.tahiti-infos.com/photo/art/grande/10383530-17001899.jpg?v=1476301412*/
+body
+{
+	background-color: white;
+	margin: 0;
+}
+
+.bloc1
+{
+	height: 660px;
+	background-image: url(defi_restaurant/zappi.jpeg);
+}
+
+.butonTop
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+.butonTop ul
+{
+	list-style: none;
+}
+
+.butonTop li
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px 30px;
+}
+
+.bloc1 a
+{
+	color:white;
+	text-decoration: none;
+	font-size: 30px;
+	letter-spacing: -1px;
+}
+
+.bloc1 a:hover
+{
+	color: #ff0055;
+}
+.bloc1 h1
+{
+	font-size: 50px;
+	letter-spacing: 3px;
+	color: white;
+	display: flex;
+	justify-content: center;
+
+}
+
+.bloc1 h2
+{
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	margin-top: -25px;
+}
+
+.butbut
+{
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+}
+
+.lienLocal
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+}
+.lienLocal img
+{
+	height: 40px;
+	width: auto;
+}
