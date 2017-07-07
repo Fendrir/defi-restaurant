@@ -25,6 +25,7 @@ body
 {
 	display: flex;
 	justify-content: center;
+	padding-top: 100px;
 }
 .butonTop ul
 {
@@ -36,4 +37,19 @@ body
 	display: inline-block;
 	vertical-align: middle;
 	margin: 0 20px;
+}
+
+.bloc1 h1
+{
+	color: white;
+	display: flex;
+	justify-content: center;
+
+}
+
+.bloc1 h2
+{
+	color: white;
+	display: flex;
+	justify-content: center;
 }
