@@ -74,7 +74,7 @@ body
 
 .butbut
 {
-	margin-top: 80px;
+	margin-top: 150px;
 	display: flex;
 	justify-content: center;
 }
@@ -83,10 +83,10 @@ body
 {
 	display: flex;
 	justify-content: center;
-	margin-top: 40px;
+	margin-top: 70px;
 }
 .lienLocal img
 {
-	max-height:  5%;
+	height: 40px;
 	width: auto;
 }
