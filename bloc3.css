@@ -14,6 +14,7 @@ body
 {
 	background-color: white;
 	margin: 0;
+	font-family: 'http://fonts.googleapis.com/css?family=Monda';
 }
 
 .bloc1
@@ -25,20 +26,28 @@ body
 	.butonTop
 	{
 		display: flex;
-		justify-content: center;
+		justify-content: space-around;
+		flex-direction: row;	
 		padding-top: 100px;
 	}
 
 	.butonTop ul
 	{
 		list-style: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
 	}
 
 	.butonTop li
 	{
-		display: inline-block;
-		vertical-align: middle;
-		margin: 0px 30px;
+		margin: 0 30px;
+		padding-top: 20px;
+	}
+
+	.butonTop img
+	{
+		margin-top: -30px;
 	}
 
 	.bloc1 a
@@ -101,6 +110,11 @@ body
 		margin-bottom: 35px;
 	}
 
+	.bloc3 li
+	{
+		width: 200px;
+	}
+
 	.titreBloc3
 	{
 		display: flex;
@@ -134,31 +148,6 @@ body
 		color: #ff0055;
 		font-size: 25px;
 		height: 60px;
-	}
-
-	.flecheGauche
-	{
-		margin-left: 20px;
-	}
-
-	.toque
-	{
-		width: 200px;
-	}
-
-	.cloche
-	{
-		width: 200px;
-	}
-
-	.masques
-	{
-		width: 200px;
-	}
-
-	.flecheDroite
-	{
-		margin-right: 20px;
 	}
 
 .lienLocal
