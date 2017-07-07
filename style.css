@@ -36,11 +36,12 @@ body
 {
 	display: inline-block;
 	vertical-align: middle;
-	margin: 0 20px;
+	margin: 0px 30px;
 }
 
 .bloc1 h1
 {
+	letter-spacing: 5px;
 	color: white;
 	display: flex;
 	justify-content: center;
@@ -49,6 +50,7 @@ body
 
 .bloc1 h2
 {
+	letter-spacing: 1px;
 	color: white;
 	display: flex;
 	justify-content: center;
