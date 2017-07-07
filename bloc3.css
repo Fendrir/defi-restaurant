@@ -22,125 +22,152 @@ body
 	background-image: url(defi_restaurant/zappi.jpeg);
 }
 
-.butonTop
+	.butonTop
+	{
+		display: flex;
+		justify-content: center;
+		padding-top: 100px;
+	}
+
+	.butonTop ul
+	{
+		list-style: none;
+	}
+
+	.butonTop li
+	{
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0px 30px;
+	}
+
+	.bloc1 a
+	{
+		color:white;
+		text-decoration: none;
+		font-size: 30px;
+		letter-spacing: -1px;
+	}
+
+	.bloc1 a:hover
+	{
+		color: #ff0055;
+	}
+	.bloc1 h1
+	{
+		font-size: 50px;
+		letter-spacing: 3px;
+		color: white;
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.bloc1 h2
+	{
+		font-size: 30px;
+		letter-spacing: 1px;
+		color: white;
+		display: flex;
+		justify-content: center;
+		margin-top: -25px;
+	}
+
+	.butbut
+	{
+		margin-top: 150px;
+		margin-bottom: 70px;
+		display: flex;
+		justify-content: center;
+	}
+
+.bloc3
 {
-	display: flex;
-	justify-content: center;
-	padding-top: 100px;
-}
-.butonTop ul
-{
-	list-style: none;
+	height: 660px;
+	background-image: url(defi_restaurant/Thuning.jpg);
 }
 
-.butonTop li
-{
-	display: inline-block;
-	vertical-align: middle;
-	margin: 0px 30px;
-}
+	.intBloc3 p
+	{
+		color: white;
+		text-align: center;
+	}
+	.bloc3 ul
+	{
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-bottom: 35px;
+	}
 
-.bloc1 a
-{
-	color:white;
-	text-decoration: none;
-	font-size: 30px;
-	letter-spacing: -1px;
-}
+	.titreBloc3
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.titreBloc3 h1
+	{
+		text-align: center;
+		color: #ff0055;
+		font-size: 50px;
+	}
 
-.bloc1 a:hover
-{
-	color: #ff0055;
-}
-.bloc1 h1
-{
-	font-size: 50px;
-	letter-spacing: 3px;
-	color: white;
-	display: flex;
-	justify-content: center;
+	.titreBloc3 p
+	{
+		margin-top: -10px;
+		color: white;
+	}
 
-}
+	.bloc3 img
+	{
+		border: 1px solid white;
+		height: 200px;
+		width: 200px;
+	}
 
-.bloc1 h2
-{
-	font-size: 30px;
-	letter-spacing: 1px;
-	color: white;
-	display: flex;
-	justify-content: center;
-	margin-top: -25px;
-}
+	.bloc3 h3
+	{
+		text-align: center;
+		color: #ff0055;
+		font-size: 25px;
+		height: 60px;
+	}
 
-.butbut
-{
-	margin-top: 150px;
-	display: flex;
-	justify-content: center;
-}
+	.flecheGauche
+	{
+		margin-left: 20px;
+	}
+
+	.toque
+	{
+		width: 200px;
+	}
+
+	.cloche
+	{
+		width: 200px;
+	}
+
+	.masques
+	{
+		width: 200px;
+	}
+
+	.flecheDroite
+	{
+		margin-right: 20px;
+	}
 
 .lienLocal
 {
 	display: flex;
 	justify-content: center;
-	margin-top: 70px;
 }
 .lienLocal img
 {
 	height: 40px;
 	width: auto;
 }
-
-
-.bloc3
-{
-	height: 660px;
-	background-image: url(defi_restaurant/Thuning.jpg);
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.titreBloc3 h1
-{
-	color: #ff0055;
-	font-size: 40px;
-	padding-top: 50px;
-}
-
-.titreBloc3 p
-{
-	text-align: center;
-	color: white;
-}
-
-.bloc3 img
-{
-	border: 1px solid white;
-	height: 200px;
-	width: 200px;
-
-}
-
-.titresBloc3 ul
-{
-		display: flex;
-	flex-direction: row;
-	justify-content: center;
-
-} 
-
-.titresBloc3 li
-{
-	margin: -20px 40px 0px 40px;
-	padding-top: -200px;
-}
-
-.bloc3 h3
-{
-	color: #ff0055;
-	font-size: 30px;
-}
-
-
-
